@@ -1,0 +1,46 @@
+{
+  "sar_metadata": {
+    "sar_id": "SAR_dd70d8a2-c60d-4769-9cc4-f180532e7379",
+    "filing_date": "2026-11-13T01:03:34.610946",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Patrick Williams",
+    "customer_id": "CUST_0118",
+    "address": "PSC 1449, Box 1476, APO AA 87103",
+    "customer_since": "2021-09-05",
+    "risk_rating": "Medium"
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.85,
+    "narrative": "Customer identification: Patrick Williams, Suspicious activity description and Transaction amounts and dates: Total incoming amount: $23,998.77 on dates: 2025-08-02, 2025-08-03, 2025-08-04. Total outgoing amount: $19,626.54 on dates: 2025-08-02, 2025-08-04. Total deposits amount: $23,998.77 on dates: 2025-08-02, 2025-08-03, 2025-08-04. Location of the transaction: Branch_Eastside_Center, Branch_Downtown_Main, Branch_Northgate_Mall. Why activity is suspicious: The pattern of multiple cash deposits within a short timeframe appears consistent with structuring to evade reporting thresholds, raising suspicion of potential money laundering activities.",
+    "key_indicators": [
+      "Multiple cash deposits within a short timeframe",
+      "Total cash deposits amounting to 23998.77",
+      "Frequent ATM transactions involving cash"
+    ],
+    "ai_reasoning": "The customer has made multiple cash deposits in a short period, which could indicate an attempt to structure transactions to avoid detection or reporting thresholds. The total amount of cash deposits is significant, and the pattern of frequent cash transactions raises red flags."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA)",
+      "12 CFR 21.11 (SAR Filing)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 74,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "2152c837-70c4-4775-90fa-5cee2c1b9ffd",
+    "processing_date": "2026-11-13T01:03:34.610946",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "human"
+  }
+}

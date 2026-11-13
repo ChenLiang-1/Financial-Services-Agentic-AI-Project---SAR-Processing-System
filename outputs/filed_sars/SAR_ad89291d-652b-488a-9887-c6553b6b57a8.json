@@ -1,0 +1,46 @@
+{
+  "sar_metadata": {
+    "sar_id": "SAR_ad89291d-652b-488a-9887-c6553b6b57a8",
+    "filing_date": "2026-11-13T01:04:09.141044",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Jacqueline Rodriguez",
+    "customer_id": "CUST_0111",
+    "address": "49331 Lewis Views Apt. 516, Lake Maryshire, DE 59549",
+    "customer_since": "2022-02-27",
+    "risk_rating": "High"
+  },
+  "suspicious_activity": {
+    "classification": "Money_Laundering",
+    "risk_level": "High",
+    "confidence_score": 0.85,
+    "narrative": "Customer identification: Jacqueline Rodriguez, Suspicious activity description and Transaction amounts and dates: Total incoming amount: $76,517.25 on 2025-07-29; Total outgoing amount: $49,517.51 on 2025-07-30 and 2025-07-31. Location of the transaction: None, Why activity is suspicious: The significant volume of wire transfers, particularly the large incoming wire transfer followed by multiple outgoing transfers within a short time frame, raises suspicion of potential money laundering activities, as it appears consistent with efforts to obscure the source of funds.",
+    "key_indicators": [
+      "Large incoming wire transfer of 76,517.25",
+      "Multiple outgoing wire transfers totaling 49,517.51",
+      "High frequency of wire transfers in a short time frame"
+    ],
+    "ai_reasoning": "The financial activity shows a significant volume of wire transfers, particularly a large incoming wire transfer of 76,517.25, followed by multiple outgoing wire transfers totaling 49,517.51 within a short time frame. This pattern is indicative of potential money laundering activities, as it involves large amounts being moved quickly, which is a common tactic to obscure the source of funds."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA)",
+      "12 CFR 21.11 (SAR Filing)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 76,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "30caf4e2-9e97-4675-a904-df8c8a656c7a",
+    "processing_date": "2026-11-13T01:04:09.141044",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "human"
+  }
+}

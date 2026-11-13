@@ -1,0 +1,46 @@
+{
+  "sar_metadata": {
+    "sar_id": "SAR_d1f329d0-1f32-4dd8-9a7b-7601f4acf701",
+    "filing_date": "2026-11-13T01:03:16.525674",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Tracy Lewis",
+    "customer_id": "CUST_0053",
+    "address": "8016 Nicole Stream Suite 650, Williamsside, ID 48017",
+    "customer_since": "2024-05-11",
+    "risk_rating": "Medium"
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.85,
+    "narrative": "Customer identification: Tracy Lewis, Suspicious activity description and Transaction amounts and dates: Total incoming cash deposits: $67,569.06 on dates: ['2025-07-25', '2025-07-26', '2025-07-27', '2025-07-28', '2025-07-29', '2025-07-30', '2025-07-31'], Location of the transaction: Branch_University_District, Branch_Southpark_Ave, Branch_Northgate_Mall, Branch_Eastside_Center, Branch_Westside_Plaza, Why activity is suspicious: The pattern of multiple cash deposits in a short timeframe appears consistent with structuring to evade reporting thresholds, raising suspicion of potential money laundering activities.",
+    "key_indicators": [
+      "Multiple cash deposits",
+      "High frequency of cash transactions",
+      "Amounts close to reporting thresholds"
+    ],
+    "ai_reasoning": "The customer has made multiple cash deposits in a short period, all of which are significant amounts, suggesting an attempt to avoid reporting thresholds. The pattern of cash deposits appears to be designed to obscure the total amount deposited, which is indicative of structuring."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA)",
+      "12 CFR 21.11 (SAR Filing)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 64,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "cd4d52a9-3cf1-4f41-a560-f4c4fee17530",
+    "processing_date": "2026-11-13T01:03:16.525674",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "human"
+  }
+}
